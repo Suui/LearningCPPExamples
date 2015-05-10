@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors and Destructors", "LearningCPP\LearningCPP.vcxproj", "{D57FFBF5-D03A-4AC4-9EB0-463CAD3AD362}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance", "Inheritance\Inheritance.vcxproj", "{644CC589-3B2A-43A0-B323-A997829F4445}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors and Destructors", "Constructors and Destructors\Constructors and Destructors.vcxproj", "{9B5FE378-994B-4A35-B524-DF040C68D59E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D57FFBF5-D03A-4AC4-9EB0-463CAD3AD362}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D57FFBF5-D03A-4AC4-9EB0-463CAD3AD362}.Debug|Win32.Build.0 = Debug|Win32
-		{D57FFBF5-D03A-4AC4-9EB0-463CAD3AD362}.Release|Win32.ActiveCfg = Release|Win32
-		{D57FFBF5-D03A-4AC4-9EB0-463CAD3AD362}.Release|Win32.Build.0 = Release|Win32
 		{644CC589-3B2A-43A0-B323-A997829F4445}.Debug|Win32.ActiveCfg = Debug|Win32
 		{644CC589-3B2A-43A0-B323-A997829F4445}.Debug|Win32.Build.0 = Debug|Win32
 		{644CC589-3B2A-43A0-B323-A997829F4445}.Release|Win32.ActiveCfg = Release|Win32
 		{644CC589-3B2A-43A0-B323-A997829F4445}.Release|Win32.Build.0 = Release|Win32
+		{9B5FE378-994B-4A35-B524-DF040C68D59E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B5FE378-994B-4A35-B524-DF040C68D59E}.Debug|Win32.Build.0 = Debug|Win32
+		{9B5FE378-994B-4A35-B524-DF040C68D59E}.Release|Win32.ActiveCfg = Release|Win32
+		{9B5FE378-994B-4A35-B524-DF040C68D59E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

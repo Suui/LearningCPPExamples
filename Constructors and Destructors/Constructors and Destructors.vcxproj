@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D57FFBF5-D03A-4AC4-9EB0-463CAD3AD362}</ProjectGuid>
+    <ProjectGuid>{9B5FE378-994B-4A35-B524-DF040C68D59E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LearningCPP</RootNamespace>
-    <ProjectName>Constructors and Destructors</ProjectName>
+    <RootNamespace>ConstructorsandDestructors</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
