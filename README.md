@@ -36,4 +36,4 @@ About Inheritance
 
 Resources:
 ---------
-(1): [Learning C++ by Creating Games with UE4] by William Sherif (_Recommended!_)
+**(1)**: [Learning C++ by Creating Games with UE4] by William Sherif (_Recommended!_)
