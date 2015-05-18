@@ -14,8 +14,10 @@ int main()
 	// Using auto has no relation with DMA. Auto just gets automatically the type of the variable, so we
 	// don't need to specify it. However, most of the time I would note use it if it's not easily readable.
 
-	auto Player03 = Player();			// Normal Player03 constructed, not a pointer, not dynamically allocated.
-	auto Player02 = new Player();		// Player02 constructed
+	auto Player02 = Player();			// Normal Player03 constructed, not a pointer, not dynamically allocated.
+	auto Player03 = new Player();		// Player02 constructed
 	
+	delete Player03;	// Without this delete, the Player03 object would stay in allocated in memory
+						// even after our program ends. It won't be destroyed when out of scope!
 	return 0;
 }
