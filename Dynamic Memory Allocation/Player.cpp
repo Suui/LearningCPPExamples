@@ -1,13 +1,22 @@
 ﻿#include "Player.h"
+#include <string>
 
 
 Player::Player()
 {
-	std::cout << "New player!" << std::endl;
+	Name = "NoName";
+	std::cout << "Player " << Name << " created!" << std::endl;
+}
+
+
+Player::Player(std::string InputName)
+{
+	Name = InputName;
+	std::cout << "Player " << Name << " created!" << std::endl;
 }
 
 
 Player::~Player()
 {
-	std::cout << "Player killed!" << std::endl;
+	std::cout << "Player " << Name << " destroyed!" << std::endl;
 }
