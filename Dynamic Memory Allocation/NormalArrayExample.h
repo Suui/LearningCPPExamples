@@ -4,6 +4,7 @@
 
 class NormalArrayExample : public Example
 {
+	int getSize();
 
 public:
 

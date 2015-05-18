@@ -2,14 +2,23 @@
 #include "Player.h"
 
 
+int NormalArrayExample::getSize()
+{
+	return 2;
+}
+
 void NormalArrayExample::execute()
 {
-	std::cout << "\n==> Normal Players Array example" << std::endl;
-	// The objects contained in an array will be constructed using its default ctor at first.
-	Player PlayerArray[2];
-	std::cout << "==> Normal Players Array created! Size = 2" << std::endl;
+	std::cout << "\n==> Normal Array example" << std::endl;
+	
+	// Initialization with size 2, then set them up
+	int Array[2];
+	Array[0] = 0;
+	Array[1] = 1;
 
-	std::cout << "\n==> Replacing the initialized players in the array" << std::endl;
-	PlayerArray[0] = Player();
-	PlayerArray[1] = Player();
+	// Initialization with no size specified, but it knows it's 2
+	int OtherArray[] = { 2, 3 };
+
+	// You can't do the following! You need a dynamic array for that.
+//	int LastArray[getSize()];
 }
