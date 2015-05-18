@@ -24,5 +24,6 @@ void NewKeywordExample::execute()
 
 	delete Jose;	// Without this delete, the Player03 object would stay in allocated in memory
 					// even after our program ends. It won't be destroyed when out of scope!
+
 	std::cout << "==> New Keyword Example finished!" << std::endl;
 }
