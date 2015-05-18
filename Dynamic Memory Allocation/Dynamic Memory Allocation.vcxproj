@@ -78,12 +78,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DynamicArrayExample.cpp" />
     <ClCompile Include="NewKeywordExample.cpp" />
     <ClCompile Include="NormalArrayExample.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DynamicArrayExample.h" />
     <ClInclude Include="Example.h" />
     <ClInclude Include="NewKeywordExample.h" />
     <ClInclude Include="NormalArrayExample.h" />
