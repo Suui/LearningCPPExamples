@@ -2,6 +2,9 @@
 Constructors and Destructors/Debug
 Inheritance/Debug
 Dynamic Memory Allocation/Debug
+Lambdas/Debug
+
 *.suo
 *.opensdf
 *.sdf
+*.user
