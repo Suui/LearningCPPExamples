@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance", "Inheritance\Inheritance.vcxproj", "{644CC589-3B2A-43A0-B323-A997829F4445}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors and Destructors", "Constructors and Destructors\Constructors and Destructors.vcxproj", "{9B5FE378-994B-4A35-B524-DF040C68D59E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dynamic Memory Allocation", "Dynamic Memory Allocation\Dynamic Memory Allocation.vcxproj", "{30849E63-E1EA-4590-BD9D-A201A3236866}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lambdas", "Lambdas\Lambdas.vcxproj", "{68B0D45F-5643-499B-BA50-7766E96D81B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{30849E63-E1EA-4590-BD9D-A201A3236866}.Debug|Win32.Build.0 = Debug|Win32
 		{30849E63-E1EA-4590-BD9D-A201A3236866}.Release|Win32.ActiveCfg = Release|Win32
 		{30849E63-E1EA-4590-BD9D-A201A3236866}.Release|Win32.Build.0 = Release|Win32
+		{68B0D45F-5643-499B-BA50-7766E96D81B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68B0D45F-5643-499B-BA50-7766E96D81B8}.Debug|Win32.Build.0 = Debug|Win32
+		{68B0D45F-5643-499B-BA50-7766E96D81B8}.Release|Win32.ActiveCfg = Release|Win32
+		{68B0D45F-5643-499B-BA50-7766E96D81B8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
